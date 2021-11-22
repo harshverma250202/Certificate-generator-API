@@ -49,7 +49,7 @@
     document.getElementById('eadform').addEventListener('submit', function(e) {
 
     event.preventDefault();
-        fetch('http://127.0.0.1:8080/ead_certificate_2021/', {
+        fetch('https://api.ecell-iitkgp.org/certificate/ead_certificate_2021/', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
